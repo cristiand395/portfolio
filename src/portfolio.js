@@ -2,16 +2,16 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Cristian Davila Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate software developer who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Cristian Davila Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -19,15 +19,15 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Cristian Davila",
+  logo_name: "CristianDavila",
+  nickname: "cristiandavila",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate software developer who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  githubProfile: "https://github.com/cristiand395",
 };
 
 const socialMediaLinks = [
@@ -42,13 +42,13 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/cristiand395",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    link: "https://www.linkedin.com/in/cristiand395",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -59,81 +59,52 @@ const socialMediaLinks = [
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
+    name: "Behance",
+    link: "https://www.behance.net/cristiandavila",
+    fontAwesomeIcon: "fa-behance", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#131418", // Reference https://simpleicons.org/?q=youtube
+  },
+  {
+    name: "Gmail",
+    link: "mailto:cristiand395@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#f2b605", // Reference https://simpleicons.org/?q=youtube
+  },
+  /*{
     name: "Gmail",
     link: "mailto:ashutoshhathidara98@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
+  },*/
+  /*{
     name: "Twitter",
     link: "https://twitter.com/ashutosh_1919",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-  {
+  },*/
+  /*{
     name: "Facebook",
     link: "https://www.facebook.com/laymanbrother.19/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
+  },*/
+  /*{
     name: "Instagram",
     link: "https://www.instagram.com/layman_brother/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  },*/
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
+      title: "Frontend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building resposive website front end using HTML, CSS and Vanilla Javascript",
+        "⚡ Developing websites using React, Hooks and applying UI libraries",
+        "⚡ Implementing UI desing from scratch with specific custom CSS",
       ],
       softwareSkills: [
         {
@@ -187,13 +158,20 @@ const skills = {
           },
         },
         {
+          skillName: "Github",
+          fontAwesomeClassname: "fontisto:github",
+          style: {
+            color: "black",
+          },
+        },
+        /*{
           skillName: "Yarn",
           fontAwesomeClassname: "simple-icons:yarn",
           style: {
             color: "#2C8EBB",
           },
-        },
-        {
+        },*/
+        /*{
           skillName: "Gatsby",
           fontAwesomeClassname: "simple-icons:gatsby",
           style: {
@@ -206,10 +184,117 @@ const skills = {
           style: {
             color: "#02569B",
           },
-        },
+        },*/
       ],
     },
     {
+      title: "Data Science & AI",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Clean data to prepare it to use for a Data Science framework",
+        "⚡ Build models to find and predict patterns to solve real problems",
+        "⚡ Show data on plots where its reflect the most important insights of the currently project",
+      ],
+      softwareSkills: [
+        /*{
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },*/
+        /*{
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },*/
+        /*{
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },*/
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#f7c126",
+          },
+        },
+        {
+          skillName: "Jupyter Notebook",
+          fontAwesomeClassname: "logos:jupyter",
+          style: {
+            backgroundColor: "transparent",
+            color: "#f7c126",
+          },
+        },
+        {
+          skillName: "Scikitlearn",
+          fontAwesomeClassname: "simple-icons:scikitlearn",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3294c7",
+          },
+        },
+        {
+          skillName: "Google Colab",
+          fontAwesomeClassname: "simple-icons:googlecolab",
+          style: {
+            backgroundColor: "transparent",
+            color: "#e16d0a",
+          },
+        },
+        {
+          skillName: "PostgresSql",
+          fontAwesomeClassname: "logos:postgresql",
+          style: {
+            backgroundColor: "transparent",
+            color: "#e16d0a",
+          },
+        },
+        {
+          skillName: "Excel",
+          fontAwesomeClassname: "vscode-icons:file-type-excel",
+          style: {
+            backgroundColor: "transparent",
+            color: "#e16d0a",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "bxl:git",
+          style: {
+            backgroundColor: "transparent",
+            color: "#eb4d28",
+          },
+        },
+        {
+          /*{
+          skillName: "R",
+          fontAwesomeClassname: "fa6-brands:r-project",
+          style: {
+            backgroundColor: "transparent",
+            color: "#1c62b3",
+          },
+        },
+        {
+          skillName: "Tableau",
+          fontAwesomeClassname: "logos:tableau-icon",
+          style: {
+            backgroundColor: "transparent",
+            color: "#1c62b3",
+          },
+        }*/
+        },
+      ],
+    },
+    /*{
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
@@ -276,31 +361,32 @@ const skills = {
           },
         },
       ],
-    },
+    },*/
     {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Designing from scratch attractive user interface for mobile and web applications",
+        "⚡ Customizing components with the product style",
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
         {
           skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          fontAwesomeClassname: "file-icons:adobe-xd",
           style: {
-            color: "#FF2BC2",
+            backgroundColor: "#f75eee",
+            color: "#450135",
           },
         },
         {
           skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          fontAwesomeClassname: "logos:figma",
           style: {
             color: "#F24E1E",
           },
         },
-        {
+        /*{
           skillName: "Adobe Illustrator",
           fontAwesomeClassname: "simple-icons:adobeillustrator",
           style: {
@@ -311,9 +397,9 @@ const skills = {
           skillName: "Inkscape",
           fontAwesomeClassname: "simple-icons:inkscape",
           style: {
-            color: "#000000",
+            color: "#450135",
           },
-        },
+        },*/
       ],
     },
   ],
@@ -386,112 +472,49 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "Machine Learning - Scikit-Learn",
+      subtitle: "- Ariel Ortiz",
+      logo_path: "scikitlearn.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+        "https://platzi.com/p/cristiand395/curso/1801-unity-3d/diploma/detalle/",
+      alt_name: "Platzi",
+      color_code: "#97D8C4",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Machine Learning & Data Science Bootcamp",
+      subtitle: "- Daniel Bourke",
+      logo_path: "ztm.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://www.udemy.com/certificate/UC-bdd067ad-2b3d-4928-a35b-8b0da5583d6c/",
+      alt_name: "zerto to mastery",
+      color_code: "#B7FDFE",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Web Scraping con Python y Xpath",
+      subtitle: "- Facundo García Martoni",
+      logo_path: "platzi.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://platzi.com/p/cristiand395/curso/2676-powerbi/diploma/detalle/",
+      alt_name: "Platzi",
+      color_code: "#f7f7f7",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: "Programación de Videojuegos 3D",
+      subtitle: "- Ricardo Celis",
+      logo_path: "unity-s.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://platzi.com/p/cristiand395/curso/1801-unity-3d/diploma/detalle/",
+      alt_name: "Unity",
+      color_code: "#CEBACF",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "User Experience Design Essentials",
+      subtitle: "- Daniel Walter Scoot",
+      logo_path: "bring_your_own_laptop.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://www.udemy.com/certificate/UC-631c0e1d-b389-49c3-bdde-d11ccdcebdcc/",
+      alt_name: "Bring Your Own Laptop",
+      color_code: "#22292f",
     },
   ],
 };
@@ -638,7 +661,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to develop projects in React and Data Science and deploy them to web applications.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -653,9 +676,9 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "profile-pic.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
   blogSection: {
     title: "Blogs",
@@ -665,15 +688,14 @@ const contactPageData = {
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    title: "Email",
+    subtitle: "cristiand395@gmail.com",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "mailto:cristiand395@gmail.com",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8320758513",
+    subtitle: "+34 641261167",
   },
 };
 
