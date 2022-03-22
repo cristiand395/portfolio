@@ -25,8 +25,8 @@ const greeting = {
   subTitle:
     "A passionate software developer who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+    "https://drive.google.com/file/d/1ivfFQuZIVjv9_R-EzOUky_dalT38oj_K/view?usp=sharing",
+  portfolio_repository: "https://github.com/cristiand395/portfolio",
   githubProfile: "https://github.com/cristiand395",
 };
 
