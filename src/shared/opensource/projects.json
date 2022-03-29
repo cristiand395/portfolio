@@ -1,9 +1,39 @@
 {
   "data": [
     {
+      "id": "fdge02assd34",
+      "name": "Shopping clothing",
+      "createdAt": "March 28-2022",
+      "url": "https://github.com/cristiand395/full_react_e-commerce",
+      "description": "E-commerce created in React.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "vscode-icons:file-type-html"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "vscode-icons:file-type-css"
+        },
+        {
+          "name": "Javascript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "vscode-icons:file-type-reactts"
+        },
+        {
+          "name": "Redux",
+          "iconifyClass": "logos:redux"
+        }
+      ]
+    },
+    {
       "id": "233e02a",
       "name": "TODO app",
-      "createdAt": "March 14-03-2022",
+      "createdAt": "March 14-2022",
       "url": "https://github.com/cristiand395/Pagina12ar_scraping",
       "description": "App to create tasks to do in cards, where you can mark as completed or delete them besides to filter by their names.",
       "isFork": false,
@@ -29,7 +59,7 @@
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Heart Disease ML",
-      "createdAt": "Feb 18-10-2022",
+      "createdAt": "Feb 18-2022",
       "url": "https://github.com/cristiand395/heart_disease_ml",
       "description": "Building a machine learning model to predict whether or not a patient has heart disease : ",
       "isFork": false,
@@ -51,7 +81,7 @@
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
       "name": "Scraping: Pagina12.ar",
-      "createdAt": "Feb 08-02-2022",
+      "createdAt": "Feb 08-2022",
       "url": "https://github.com/cristiand395/Pagina12ar_scraping",
       "description": "This project is about of scraping a website from  an Argentina journal; getting post, secctios, articles, links, title, etc... :",
       "isFork": false,
